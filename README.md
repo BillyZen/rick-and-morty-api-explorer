@@ -10,4 +10,4 @@ I made the decision to use a simple authentication mechanism using Auth0 as I al
 
 I have carried out a couple of tests using jest and react test library. The challenge with this was more within the mocking of the authentication provider and the graphql client.
 
-If you don't want to create your own log in I will send a prepared user in the email for you to use.
+If you don't want to create your own log in please use: username: willjayandtay+123@hotmail.co.uk password: Perdoo123!
