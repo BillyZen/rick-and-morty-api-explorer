@@ -1,0 +1,19 @@
+.detailViewContainer {
+  width: 100%;
+  .extraDetailContainer {
+    height: 80vh;
+    overflow-y: scroll;
+    padding: var(--app-spacing-small);
+    .detailListContainer {
+      .detailItem {
+        padding: 4px;
+        font-size: var(--app-content-size);
+        cursor: pointer;
+        &:hover {
+          background: var(--app-primary-dark);
+          color: var(--app-white);
+        }
+      }
+    }
+  }
+}

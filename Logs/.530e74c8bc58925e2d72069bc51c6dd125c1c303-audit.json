@@ -1,0 +1,85 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "Logs/.530e74c8bc58925e2d72069bc51c6dd125c1c303-audit.json",
+    "files": [
+        {
+            "date": 1719850819102,
+            "name": "Logs/2024-07-01-17-auth.log",
+            "hash": "13aabae89b749433df8ee84258d6040a3c4a8a289aa66682f2a8b09331e35310"
+        },
+        {
+            "date": 1719865460198,
+            "name": "Logs/2024-07-01-21-auth.log",
+            "hash": "ac1e4e7084130fe91d3376d3012bb7f60efabb33cf5b7aba700d60375c2768a0"
+        },
+        {
+            "date": 1719867817788,
+            "name": "Logs/2024-07-01-22-auth.log",
+            "hash": "17b585b83f1d80a7e2c3f73974c17e9e1d3a44a465908a83aeb081d89d293f10"
+        },
+        {
+            "date": 1719907595335,
+            "name": "Logs/2024-07-02-09-auth.log",
+            "hash": "72846c381acf130f6c2d6d4c53bc678b04292ffd95ea0cbc15adf092d7ac125a"
+        },
+        {
+            "date": 1719910887443,
+            "name": "Logs/2024-07-02-10-auth.log",
+            "hash": "430b9da7e89783abc60af5c18ea3b65555ce9b32e154c839dea5244353adf2f0"
+        },
+        {
+            "date": 1719916014516,
+            "name": "Logs/2024-07-02-11-auth.log",
+            "hash": "c5848b000338b58802a71d7206c23449031402b0c684fe1f4548bca395586e65"
+        },
+        {
+            "date": 1719918846508,
+            "name": "Logs/2024-07-02-12-auth.log",
+            "hash": "78583b7211b96785f71983f8cf179c9457a405f75d769bd6103e9b72b0bd86aa"
+        },
+        {
+            "date": 1719923355998,
+            "name": "Logs/2024-07-02-13-auth.log",
+            "hash": "93ebbdfbac14c3383aff2490bbab2025aefcd08d42414b44369d164d22a992d2"
+        },
+        {
+            "date": 1719929628191,
+            "name": "Logs/2024-07-02-15-auth.log",
+            "hash": "f4301da80b908bda44c5d6424c1fcfa29c7b0d68e194e9f5c1fcedba957033e0"
+        },
+        {
+            "date": 1719932450476,
+            "name": "Logs/2024-07-02-16-auth.log",
+            "hash": "061a869ca89b7f59e3e085ed409ecabd3c04d39f39ee068a51687e1096d7bc18"
+        },
+        {
+            "date": 1719940236064,
+            "name": "Logs/2024-07-02-18-auth.log",
+            "hash": "fe8e5376b2c6a1de9637c3bb3fffc6982037e4619622447d3e0ea5626e4dd3a5"
+        },
+        {
+            "date": 1719943879100,
+            "name": "Logs/2024-07-02-19-auth.log",
+            "hash": "f58be1d3a18033ab594730d56690cce7b1b08ff8135b80f4265043216a6c7549"
+        },
+        {
+            "date": 1719947139599,
+            "name": "Logs/2024-07-02-20-auth.log",
+            "hash": "1aee0dd9b9e9ccbf41166fd37f98a83a48cfc080256ad971b5ce97c8f313433b"
+        },
+        {
+            "date": 1719993345404,
+            "name": "Logs/2024-07-03-08-auth.log",
+            "hash": "03d6cb6c9338e31c6887f218dd8f4dd7f45475c0171f17d0bc1daa15e4c07eb5"
+        },
+        {
+            "date": 1719994201134,
+            "name": "Logs/2024-07-03-09-auth.log",
+            "hash": "6520f2d0653342dca01b56c1bed1fca3f4684d64b601b650974afcc0cd1f2d78"
+        }
+    ],
+    "hashType": "sha256"
+}

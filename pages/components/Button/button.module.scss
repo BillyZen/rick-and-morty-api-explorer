@@ -1,0 +1,75 @@
+.appButton {
+  border-radius: var(--app-border-radius);
+  border: none;
+  color: var(--app-white);
+  cursor: pointer;
+  transition: all 400ms;
+  font-family: var(--app-font);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  &.disabled {
+    background: var(--app-ghost);
+    color: var(--app-primary-dark);
+    .lock {
+      background-color: rgba(0, 0, 0, 0);
+      height: var(--app-spacing-large);
+      width: var(--app-spacing-large);
+      position: absolute;
+    }
+  }
+}
+
+.btnSizesmall {
+  height: var(--app-spacing-medium);
+  width: fit-content;
+  min-width: var(--app-spacing-medium);
+  font-size: var(--app-content-size);
+}
+
+.btnSizemedium {
+  height: 32px;
+  width: 100px;
+  font-size: var(--app-content-size);
+  margin: var(--app-spacing-small);
+}
+
+.btnSizelarge {
+  height: 60px;
+  width: 180px;
+  font-size: var(--app-heading-size);
+  margin: var(--app-spacing-medium);
+}
+
+.btnColorprimary {
+  background: var(--app-primary-dark);
+  &:hover {
+    color: var(--app-primary-dark);
+    background: var(--app-white);
+  }
+}
+
+.btnColorsecondary {
+  background: var(--app-secondary);
+  &:hover {
+    color: var(--app-secondary);
+    background: var(--app-white);
+  }
+}
+
+.btnColorghost {
+  background: var(--app-ghost);
+  &:hover {
+    color: var(--app-ghost);
+    background: var(--app-white);
+  }
+}
+
+.btnColordanger {
+  background: var(--app-danger);
+  &:hover {
+    color: var(--app-danger);
+    background: var(--app-white);
+  }
+}

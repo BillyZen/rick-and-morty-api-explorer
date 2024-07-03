@@ -1,0 +1,68 @@
+.popup {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  z-index: 20;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .popupTop {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--app-spacing-medium);
+    height: 60px;
+    font-size: var(--app-content-size);
+    position: relative;
+
+    .icon {
+      margin-left: var(--app-spacing-small);
+      height: var(--app-spacing-xl);
+      width: var(--app-spacing-xl);
+    }
+    .close {
+      position: absolute;
+      right: var(--app-spacing-small);
+    }
+  }
+  .popupMiddle {
+    height: 80px;
+    font-size: var(--app-content-size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    padding: var(--app-spacing-small);
+    text-align: center;
+  }
+
+  .popupBottom {
+    .clickBack {
+      font-size: var(--app-font-small);
+    }
+    a.logoutLink {
+      font-size: var(--app-content-size);
+      border: solid;
+    }
+  }
+  .line {
+    height: 1px;
+    width: 90%;
+    border: solid 1px;
+    opacity: 0.5;
+    border-radius: var(--app-spacing-medium);
+  }
+}
+
+@media (min-width: 768px) {
+  .popup {
+    width: 400px;
+    left: calc(50% - 200px);
+    cursor: pointer;
+  }
+}

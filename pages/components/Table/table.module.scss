@@ -1,0 +1,49 @@
+.tableContainer {
+  margin: var(--app-spacing-small);
+  box-shadow: var(--app-box-shadow);
+  border-radius: var(--app-border-radius);
+  table {
+    width: 100%;
+    padding: var(--app-spacing-small);
+    .columnHeader {
+      height: var(--app-spacing-xl);
+      padding: 0 var(--app-spacing-small);
+    }
+    .tableRows {
+      .tableRow {
+        td.tableItem {
+          &:not(.last) {
+            border-right: 1px solid rgba(0, 0, 0, 0.1);
+          }
+          padding: 0 var(--app-spacing-small);
+          max-width: 100px;
+        }
+      }
+    }
+  }
+  .tableFooter {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: var(--app-spacing-small);
+    align-items: flex-end;
+    justify-content: space-between;
+    .buttonContainer {
+      display: flex;
+      height: 100%;
+    }
+    p {
+      padding: 0 var(--app-spacing-small);
+      height: 100%;
+    }
+  }
+}
+.sorryContainer {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: var(--app-heading-size);
+}
